@@ -9,7 +9,7 @@ Example usage:
 ```js
 const prompt = 'a view of a person writing Javascript code'
 
-const { FusionBrain } = importModule('fusion-brain-api')
+const { FusionBrain } = importModule('fusionbrain-ai-api')
 const fb = new FusionBrain({
     key: 'your-api-key',
     secret: 'your-api-secret'
