@@ -15,7 +15,7 @@ const API_KEY = 'your-api-key'
 const API_SECRET = 'your-api-secret'
 
 async function generateImage(prompt) {
-  const { FusionBrain } = importModule('fusionbrain-api')
+  const { FusionBrain } = importModule('fusionbrain-ai-api')
   const fb = new FusionBrain({
     key: API_KEY,
     secret: API_SECRET
